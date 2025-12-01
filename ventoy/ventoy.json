@@ -19,24 +19,32 @@
     },
     "menu_alias": [
         {
-            "image": "/iso/W10-22h2.iso",
-            "alias": "Windows 10 22H2"
+            "image": "/debian-13.1.0-amd64-netinst.iso",
+            "alias": "Debian 13.1.0 Netinstall"
         },
         {
-            "image": "/iso/Win11_24H2.iso",
-            "alias": "Windows 11 24H2"
+            "image": "/rocky-linux.iso",
+            "alias": "Rocky Linux"
         },
         {
-            "image": "/iso/ubuntu-24.10-server.iso",
+            "image": "/ubuntu-24.10-server.iso",
             "alias": "Ubuntu 24.10 Server"
         },
         {
-            "image": "/iso/windows10_ltsc.iso",
-            "alias": "Windows 10 ltsc"
+            "image": "/ubuntu-25.04-desktop-amd64.iso",
+            "alias": "Ubuntu 25.04 Desktop"
         },
         {
-            "image": "/iso/rocky-linux.iso",
-            "alias": "Rocky Linux"
+            "image": "/W10-22h2.iso",
+            "alias": "Windows 10 22H2"
+        },
+        {
+            "image": "/Win11_24H2.iso",
+            "alias": "Windows 11 24H2"
+        },
+        {
+            "image": "/windows10_ltsc.iso",
+            "alias": "Windows 10 LTSC"
         }
     ],
     "menu_class": [
@@ -51,7 +59,22 @@
         {
             "key": "ubuntu-24.10-server",
             "class": "ubuntu"
+        },
+        {
+            "key": "windows10_ltsc",
+            "class": "windows10"
+        },
+        {
+            "key": "debian-13.1.0-amd64-netinst",
+            "class": "debian"
+        },
+        {
+            "key": "rocky-linux",
+            "class": "rocky"
+        },
+        {
+            "key": "ubuntu-25.04-desktop-amd64",
+            "class": "ubuntu"
         }
     ]
 }
-
